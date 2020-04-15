@@ -41,9 +41,9 @@ Assumptions and Behavior:
 How to run it:
 --------------
 
-Please pick up the .jar file from the root of my git repo. 
+Please pick up the .jar file from the root of my git repo. Please use retailstore-1.0.0-RELEASE and not retailstore-0.0.1-RELEASE.
 
-cmd>java -jar retailstore-0.0.1-RELEASE.jar
+cmd>java -jar retailstore-1.0.0-RELEASE
 
 Once application is up and running, you can use browser to place an order.
 

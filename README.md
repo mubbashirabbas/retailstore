@@ -62,16 +62,16 @@ Please note that class diagram is in /src/main/resources folder
 Sample Request:
 ---------------
 
-Go into the browser and put http://localhost:8080/placeOrder/1,5/1 in the URL. Here 1,5 are two product ids separated by a comma. The /1 aftetr product ids is the user id.
+Go into the browser and put http://localhost:8080/placeOrder/1,5/1 in the URL. Here 1,5 are two product ids separated by a comma. The /1 after product ids is the user id.
 
 Sample  Response:
 -----------------
 {
-   "customerId":1,
-   "customerName":"abbas",
-   "totalBill":6050.0,
-   "associationDiscount":1815000.0,
-   "billDiscount":300.0,
-   "totalDiscount":1815300.0,
-   "finalBill":-1809250.0
+    "customerId": 1,
+    "customerName": "abbas",
+    "totalBill": 6050.0,
+    "associationDiscount": 1800.0001,
+    "billDiscount": 300.0,
+    "totalDiscount": 2100.0,
+    "finalBill": 3950.0
 }

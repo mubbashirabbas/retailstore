@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.cc.retailstore.model.Product" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/model/Product.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="146" x="472" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.cc.retailstore.model.BaseBean" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/model/BaseBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="177" x="1028" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.cc.retailstore.service.BillDiscountSvc" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/service/BillDiscountSvc.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="325" x="2902" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.cc.retailstore.model.LoyaltyDiscount" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/model/LoyaltyDiscount.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="191" x="1068" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.cc.retailstore.service.impl.ProductSvcImpl" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/service/impl/ProductSvcImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="124" width="278" x="1780" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.cc.retailstore.dao.LoyaltyDiscountDao" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/dao/LoyaltyDiscountDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="319" x="1723" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="com.cc.retailstore.dao.TotalBillDiscountDao" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/dao/TotalBillDiscountDao.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="70" width="173" x="3438" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.cc.retailstore.model.User" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/model/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="502" width="349" x="658" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="com.cc.retailstore.service.UserSvc" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/service/UserSvc.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="149" x="2713" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="com.cc.retailstore.dao.ProductDao" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/dao/ProductDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="70" width="131" x="1552" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="11" language="java" name="com.cc.retailstore.service.ProductSvc" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/service/ProductSvc.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="278" x="2082" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="com.cc.retailstore.model.PercentageDiscount" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/model/PercentageDiscount.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="219" x="1028" y="932"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.cc.retailstore.controller.RetailStoreController" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/controller/RetailStoreController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="448" x="2505" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.cc.retailstore.RetailStoreRunner" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/RetailStoreRunner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="157" x="122" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.cc.retailstore.service.impl.LoyaltyDiscountSvcImpl" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/service/impl/LoyaltyDiscountSvcImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="273" x="2098" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" name="com.cc.retailstore.service.LoyaltyDiscountSvc" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/service/LoyaltyDiscountSvc.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="273" x="2400" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" language="java" name="com.cc.retailstore.service.impl.UserSvcImpl" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/service/impl/UserSvcImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="176" x="2993" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.cc.retailstore.controller.CustomErrorController" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/controller/CustomErrorController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="124" width="190" x="319" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="com.cc.retailstore.dao.UserDao" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/dao/UserDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="70" width="131" x="3267" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="com.cc.retailstore.service.impl.BillDiscountSvcImpl" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/service/impl/BillDiscountSvcImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="325" x="3209" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.cc.retailstore.model.BillDetails" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/model/BillDetails.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="484" width="238" x="549" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.cc.retailstore.model.AdditionalBillDiscount" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/model/AdditionalBillDiscount.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="213" x="1299" y="390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="23" language="java" name="com.cc.retailstore.model.UserType" project="retailstore" 
+    file="/retailstore/src/main/java/com/cc/retailstore/model/UserType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="161" x="827" y="-134"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <association id="24">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="25" name="totalBillDiscountDao"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="27">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <realization id="28">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="30">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="31" name="billDiscountSvc"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="34">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="35" name="userDao"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="38">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="39" name="loyaltyDiscountSvc"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="42" name="userSvc"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="44">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="45">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="46">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="47" name="prodDao"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="50" name="percentageDiscount"/>      
+      <multiplicity id="51" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="53">    
+    <bendpoint x="1037" y="390"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="54">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="55" name="loyaltyDiscountDao"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="58" name="productSvc"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,18 @@
+INSERT INTO tbl_product(sname, price, ptype, created_date, created_by) VALUES ('Shan Spice', 50, 'GROCERY', CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_product(sname, price, ptype, created_date, created_by) VALUES ('Frozen Chicken', 500, 'GROCERY', CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_product(sname, price, ptype, created_date, created_by) VALUES ('Frozen Beaf', 200, 'GROCERY', CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_product(sname, price, ptype, created_date, created_by) VALUES ('Onions', 150, 'GROCERY', CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_product(sname, price, ptype, created_date, created_by) VALUES ('Car', 6000, 'AUTOMOBILE', CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_product(sname, price, ptype, created_date, created_by) VALUES ('Watch', 300, 'AUTOMOBILE', CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_users(first_name, middle_name, last_name, username, password, email, address, created_date, created_by) VALUES ('mubbashir', '', 'abbas', 'muabbas', 'asdf12@', 'muabbas@csquareonline.com', 'Karachi, Pakistan', '2017-04-16', 'admin');
+INSERT INTO tbl_users(first_name, middle_name, last_name, username, password, email, address, created_date, created_by) VALUES ('Ibrahim', '', 'Khan', 'muabbas', 'asdf12@', 'ikhan@dummy.com', 'Karachi, Pakistan', '2010-04-16', 'admin');
+INSERT INTO tbl_users(first_name, middle_name, last_name, username, password, email, address, created_date, created_by) VALUES ('Aiman', '', 'Sohail', 'muabbas', 'asdf12@', 'asohail@dummy.com', 'Karachi, Pakistan', '2019-04-16', 'admin');
+INSERT INTO tbl_users(first_name, middle_name, last_name, username, password, email, address, created_date, created_by) VALUES ('John', '', 'Eliya', 'muabbas', 'asdf12@', 'jeliya@dummy.com', 'Karachi, Pakistan', CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_internal_users_discount(association_type, discount, created_date, created_by) VALUES ('AFFILIATE', .1, CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_internal_users_discount(association_type, discount, created_date, created_by) VALUES ('EMPLOYEE', .3, CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_loyalty_discount(required_tenure_in_days, discount, created_date, created_by) VALUES (700, .05, CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_total_bill_discount(amount, discount, created_date, created_by) VALUES (100, 5, CURRENT_TIMESTAMP(), 'admin');
+INSERT INTO tbl_user_associations(user_id,association_id) VALUES (1,1);
+INSERT INTO tbl_user_associations(user_id,association_id) VALUES (1,2);
+INSERT INTO tbl_user_associations(user_id,association_id) VALUES (2,1);
+INSERT INTO tbl_user_associations(user_id,association_id) VALUES (3,2);

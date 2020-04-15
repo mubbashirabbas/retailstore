@@ -57,6 +57,8 @@ You will get a response of the bill which will have the following details:
 6) Final Payable
 
 Please note that class diagram is in /src/main/resources folder
+
+
 Sample Request:
 ---------------
 
